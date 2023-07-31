@@ -2000,7 +2000,8 @@ for t in thread_list:
 
 分类器的算法实现的选择：`RandomForestClassifier`，`MultinomialNB`，`ComplementNB`
 
-在附上的excel表格中有一些模型组合的相关预测正确率。
+其中我使用了`TfidfVectorizer`以及`RandomForestClassifier`。
+
 
 经过测验：TfidfVectorizer(), RandomForestClassifier(n_estimators=300, random_state=43)是最好的参数
 
